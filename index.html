@@ -1,148 +1,165 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="현미밥의 Today I Learn" />
+    <meta property="og:description" content="쌀밥보다는 건강을 생각하는 현미밥의 기록입니다." />
+    <meta property="og:image" content="./images/profile.jpg" />
 
-    <title>Today I Learn</title>
+    <title>Today I Learn - 현미밥</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" defer></script>
-  </head>
-  <body>
-    <!-- 상단 내비게이션 -->
-    <nav class="top-nav">
-      <span class="nav-logo">My Page</span>
-      <ul class="nav-links">
+</head>
+<body>
+<nav class="top-nav">
+    <span class="nav-logo">My Page</span>
+    <ul class="nav-links">
         <li><a href="#about">자기소개</a></li>
+        <li><a href="#info">기본 정보</a></li>
         <li><a href="#gallery">갤러리</a></li>
         <li><a href="#works">인생 작품</a></li>
         <li><a href="#til">TIL</a></li>
-      </ul>
-    </nav>
+    </ul>
+</nav>
 
-    <!-- 프로필 히어로 -->
-    <section class="hero" id="about">
-      <div class="profile-card">
+<section class="hero" id="about">
+    <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+            <img src="./images/profile.jpg" alt="현미밥 프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+            <h1>현미밥 🍚</h1>
+            <p class="tagline">쌀밥보다는 건강을 생각하는 현미밥!</p>
         </div>
-      </div>
+    </div>
+</section>
+
+<main>
+    <section class="content-section reveal">
+        <h2>자기소개</h2>
+        <p>
+            현미밥의 자기소개서입니다 (ᗒ⩊ᗕ) <br>
+            우아한테크코스 백엔드 과정을 수강하고 있습니다.
+            많이 배워서 발전하고 싶습니다!
+        </p>
+        <p>
+            <a href="https://github.com/gahyeonnni" target="_blank">내 GitHub 방문하기</a>
+        </p>
     </section>
 
-    <main>
-      <!-- 자기소개 -->
-      <section class="content-section">
-        <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
-        <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
-      </section>
-
-      <!-- 기본 정보 -->
-      <section class="content-section" id="info">
+    <section class="content-section reveal" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
-          <tr>
-            <th>이름</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>MBTI</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>취미</th>
-            <td></td>
-          </tr>
-          <tr>
-            <th>좋아하는 음식</th>
-            <td></td>
-          </tr>
+            <tr>
+                <th>이름</th>
+                <td>김가현</td>
+            </tr>
+            <tr>
+                <th>MBTI</th>
+                <td>INFP</td>
+            </tr>
+            <tr>
+                <th>취미</th>
+                <td>등산</td>
+            </tr>
+            <tr>
+                <th>좋아하는 음식</th>
+                <td>두쫀쿠, 떡볶이, 소금빵, 프렌치토스트, 마카롱, 뿌링클, 육회, 연어, 휘낭시에</td>
+            </tr>
+            <tr>
+                <th>좋아하는 캐릭터</th>
+                <td>리락쿠마</td>
+            </tr>
+            <tr>
+                <th>좋아하는 음료수</th>
+                <td>밀크티에 펄 추가</td>
+            </tr>
         </table>
-      </section>
+    </section>
 
-      <!-- 나만의 갤러리 -->
-      <section class="content-section" id="gallery">
+    <section class="content-section reveal" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">직접 찍은 좋아하는 사진들입니다!</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+            <img src="./images/like_pic1.jpg" alt="이미지 1" />
+            <img src="./images/like_pic2.jpg" alt="이미지 2" />
+            <img src="./images/like_pic3.jpg" alt="이미지 3" />
+            <img src="./images/like_pic4.jpg" alt="이미지 4" />
+            <img src="./images/like_pic5.jpg" alt="이미지 5" />
+            <img src="./images/like_pic6.jpg" alt="이미지 6" />
+            <img src="./images/like_pic7.jpg" alt="이미지 7" />
+            <img src="./images/like_pic8.jpg" alt="이미지 8" />
+            <img src="./images/like_pic9.jpg" alt="이미지 9" />
         </div>
-      </section>
+    </section>
 
-      <!-- 나를 울린 인생 작품 -->
-      <section class="content-section" id="works">
+    <section class="content-section reveal" id="works">
         <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
-            </div>
-            <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
-            </div>
-          </article>
-        </div>
-      </section>
+        <ul class="works-list">
+            <li class="work-item">
+                <article class="work-card">
+                    <div class="work-info">
+                        <h3>인생 노래 : 잊었니 (이승철)</h3>
+                        <p>처음 부분을 가장 좋아하고 노래방에서도 많이 부르는 노래입니다.</p>
+                    </div>
+                </article>
+            </li>
+            <li class="work-item">
+                <article class="work-card">
+                    <div class="work-info">
+                        <h3>인생 영화 : 노트북</h3>
+                        <p>노아와 앨리의 지고지순한 사랑 이야기입니다.</p>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/BjJcYdEOI0k" ...></iframe>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
 
-      <!-- TIL (Today I Learned) -->
-      <section class="content-section" id="til">
+    <section class="content-section reveal" id="til">
         <h2>TIL</h2>
         <p class="section-desc">오늘 새롭게 배운 것들을 기록합니다.</p>
 
-        <!-- TIL 작성 폼 -->
         <form class="til-form" id="til-form">
-          <div class="form-group">
-            <label for="til-date">날짜</label>
-            <input type="date" id="til-date" name="date" required />
-          </div>
-          <div class="form-group">
-            <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
-          </div>
-          <div class="form-group">
-            <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
-          </div>
-          <div class="form-actions">
-            <button type="submit">등록</button>
-            <button type="reset">초기화</button>
-          </div>
+            <div class="form-group">
+                <label for="til-date">날짜</label>
+                <input type="date" id="til-date" name="date" required />
+            </div>
+            <div class="form-group">
+                <label for="til-title">제목</label>
+                <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
+            </div>
+            <div class="form-group">
+                <label for="til-content">내용</label>
+                <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="submit">등록</button>
+                <button type="reset">초기화</button>
+            </div>
         </form>
 
-        <!-- TIL 목록: 폼으로 등록하면 여기에 항목이 추가됩니다 -->
         <div class="til-list" id="til-list">
-          <!-- 아래는 예시 항목입니다. 자유롭게 수정하거나 삭제하세요 -->
-          <article class="til-item">
-            <time>2026-03-15</time>
-            <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
-          </article>
+            <article class="til-item">
+                <time datetime="2026-03-18">2026-03-18</time>
+                <h3>라우터의 역할과 패킷 전송 원리</h3>
+                <p>
+                    데이터를 패킷이라는 작은 단위로 나누어 전송한다.
+                    큰 데이터를 쪼개서 보내면 전송 효율이 높아지고, 중간에 오류가 나더라도 해당 패킷만 재전송하면 되기 때문에 안정적이다.
+                    이때 라우터는 라우팅 테이블을 조회하여 패킷이 목적지까지 가는 최적의 경로를 찾아 전달해주는 역할을 한다.
+                </p>
+            </article>
         </div>
-      </section>
+    </section>
 
-    </main>
+</main>
 
-    <footer>
-      <p>&copy; My Page</p>
-    </footer>
-  </body>
+<footer>
+    <p>&copy; 2026 현미밥. All rights reserved.</p>
+</footer>
+</body>
 </html>
